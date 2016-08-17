@@ -36,3 +36,8 @@ set( CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build" FORCE )
 #
 set( BUILD_TESTS ON CACHE BOOL "Build DDS tests" FORCE )
 
+#
+# Use non system Boost
+#
+#set(Boost_NO_SYSTEM_PATHS ON CACHE BOOL "Don't use system Boost." FORCE )
+#set(BOOST_ROOT "PATH_TO_BOOST" CACHE PATH "Path to boost libraries." FORCE)
